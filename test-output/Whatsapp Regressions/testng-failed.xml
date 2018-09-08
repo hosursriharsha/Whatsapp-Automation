@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Whatsapp Regressions]" parallel="tests">
+  <parameter name="Users" value="MotoG"/>
+  <test name="Regressions(failed)" parallel="tests">
+    <parameter name="Users" value="MotoG"/>
+    <classes>
+      <class name="com.whatsapptest.base.Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.whatsapptest.base.Runner -->
+      <class name="com.whatsapptest.base.BaseClass">
+        <methods>
+          <include name="setDriverManager"/>
+          <include name="getDeviceDetails"/>
+        </methods>
+      </class> <!-- com.whatsapptest.base.BaseClass -->
+    </classes>
+  </test> <!-- Regressions(failed) -->
+</suite> <!-- Failed suite [Whatsapp Regressions] -->

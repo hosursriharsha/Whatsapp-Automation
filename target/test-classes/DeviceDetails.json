@@ -1,0 +1,25 @@
+{
+	"Devices": 
+	[
+		{
+			"DeviceName":"MotoG",
+			"userName":"Harsha",
+			"UDID": "TA93308E44",
+			"platformName": "Android",
+			"OSVersion": "5.1",
+			"appPackage": "com.whatsapp",
+			"appActivity": "com.whatsapp.Main",
+			"fullReset":"false"
+		},
+		{
+			"DeviceName":"Turbo",
+			"userName":"Harsha",
+			"UDID": "TA93308E44",
+			"platformName": "Android",
+			"OSVersion": "5.1",
+			"appPackage": "com.whatsapp",
+			"appActivity": "com.whatsapp.Main",
+			"fullReset":"false"
+		}
+	]
+}
