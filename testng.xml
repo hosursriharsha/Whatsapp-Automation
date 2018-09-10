@@ -4,7 +4,7 @@
 
 <suite name="Whatsapp Regressions" parallel="tests" verbose="1">
 	<test name="Regressions">
-		<parameter name="Users" value="MotoG" />
+		<parameter name="Users" value="Turbo,MotoG" />
 		<packages>
 			<package name="com.whatsapptest.base.*"/>
 		</packages>
