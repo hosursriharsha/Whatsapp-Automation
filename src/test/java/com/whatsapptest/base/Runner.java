@@ -9,7 +9,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
  * Author : H Sri Harsha This is the runner file which will be used by cucumber.
  */
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/Features", glue = {"classpath:com.whatsapptest.Chats"})
+@CucumberOptions(features = "src/test/Features",
+    glue = {"classpath:com.whatsapptest.Chats", "classpath:com.whatsapptest.Status"})
 public class Runner extends AbstractTestNGCucumberTests {
 
 }

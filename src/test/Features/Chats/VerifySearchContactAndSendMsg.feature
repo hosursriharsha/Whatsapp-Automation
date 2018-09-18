@@ -1,5 +1,5 @@
 ##Author : H Sri Harsha
-##This feature is used to search a contact and send a message in whatsapp.
+##This feature contains scenarios related to searching a contact and sending a message in whatsapp.
 Feature: Verify search contact and send message
 
 @VerifySearchAndSendMsg
